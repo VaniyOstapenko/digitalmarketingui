@@ -103,11 +103,23 @@ body main .sub-items p {
   text-transform: uppercase;
   margin: 50px 0 0 40px;
 }
-body main .sub-items .plus {
+body main .sub-items .plus1,
+body main .sub-items .plus2,
+body main .sub-items .plus3,
+body main .sub-items .plus4 {
   background-image: url(./assets/Frame.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 25px;
   height: 25px;
   margin: -30px 0 0 441px;
+}
+body main .sub-items .response1,
+body main .sub-items .response2,
+body main .sub-items .response3,
+body main .sub-items .response4 {
+  border-radius: 8px;
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.1);
 }
