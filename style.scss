@@ -4,49 +4,95 @@
   font-style: normal;
   font-family: "Oswald";
 }
-
-header {
-  display: flex;
-  margin: 20px 0 0 120px;
-  .paragraph {
+body {
+  width: 1440px;
+  height: 1000px;
+  header {
     display: flex;
-    justify-content: space-between;
-    width: 800px;
-    .small_img {
-      background-image: url(./assets/Small\ IMG.png);
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 93px;
-      height: 32px;
-      margin-right: 30px;
+    margin: 20px 0 0 120px;
+    .paragraph {
+      display: flex;
+      justify-content: space-around;
+      width: 800px;
+      .small_img {
+        background-image: url(./assets/Small\ IMG.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 93px;
+        height: 32px;
+        margin-right: 30px;
+      }
+      p {
+        color: #000;
+        font: 400 14px "Oswald";
+      }
     }
-    p {
-      color: #000;
+    .button {
+      margin: -13px 0 0 300px;
+      border-radius: 30px;
+      background: #0057ff;
+      width: 193px;
+      height: 52px;
+      flex-shrink: 0;
+      display: flex;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
       font: 400 14px "Oswald";
     }
   }
-  .button {
-    margin: -13px 0 0 300px;
-    border-radius: 30px;
-    background: #0057ff;
-    width: 193px;
-    height: 52px;
-    flex-shrink: 0;
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    align-items: center;
-    font: 400 14px "Oswald";
-  }
-}
 
-main {
-  display: flex;
-  .big_img {
-    background-image: url(./assets/Big\ IMG.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 540px;
-    height: 589px;
+  main {
+    display: flex;
+    margin: 134px 0 0 120px;
+    .big_img {
+      background-image: url(./assets/Big\ IMG.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 540px;
+      height: 589px;
+    }
+    .content {
+      margin-left: 120px;
+      h1 {
+        color: #000;
+        font: 400 40px "Oswald";
+        font-family: Oswald;
+        line-height: 50px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        width: 482px;
+      }
+      h4 {
+        color: #000;
+        font: 400 15px "Roboto";
+        line-height: 26px;
+        width: 488px;
+        margin-top: 48px;
+      }
+    }
+    .sub-items {
+      border-radius: 20px;
+      border: 1px solid #e7e7e7;
+      width: 500px;
+      height: 356px;
+      flex-shrink: 0;
+      margin-top: 58px;
+      p {
+        color: #000;
+        font: 400 16px "Oswald";
+        line-height: 28px;
+        text-transform: uppercase;
+        margin: 50px 0 0 40px;
+      }
+      .plus {
+        background-image: url(./assets/Frame.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 25px;
+        margin: -30px 0 0 441px;
+      }
+    }
   }
 }
